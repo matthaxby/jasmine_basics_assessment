@@ -39,7 +39,7 @@ var medianScore = function (arr) {
 var mode = function (arr) {
   var result = {}
   var greatest = 0
-  var theMode
+  var theMode = 0
   arr.forEach(function (val) {
     if (result[val] === undefined) {
       result[val] = 1
